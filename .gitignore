@@ -1,0 +1,16 @@
+node_modules/
+.DS_Store
+.env
+.env.local
+*.log
+dist/
+.void/
+.void-wrangler.jsonc
+.wrangler/
+.env.*
+!.env.example
+*.tsbuildinfo
+.e2e/
+# 個人データ・記入済み書類は tracked に入れない
+*.local.*
+/private/
