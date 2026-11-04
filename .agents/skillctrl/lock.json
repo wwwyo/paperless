@@ -1,0 +1,38 @@
+{
+  "acceptedHashes": {},
+  "upstreams": {
+    "cloudflare": {
+      "computedHash": "e7c26bb690042060d60fcccf3e5807d000c9c064f732b6fcfccb8bbcdc5dc04a",
+      "installedAt": "2026-11-04T05:34:50.271Z",
+      "native": {
+        "computedHash": "e7c26bb690042060d60fcccf3e5807d000c9c064f732b6fcfccb8bbcdc5dc04a",
+        "skillPath": "skills/cloudflare/SKILL.md",
+        "source": "cloudflare/skills",
+        "sourceType": "github"
+      },
+      "skillFolderHash": "3eb560a41f50d50415cac69334742f70384246cd",
+      "skillPath": "skills/cloudflare/SKILL.md",
+      "source": "cloudflare/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/cloudflare/skills.git",
+      "updatedAt": "2026-11-04T05:34:50.271Z"
+    },
+    "void": {
+      "computedHash": "0fdeb1130d9a6a0de55dd7facf99fba5640d10be65136e10507fe4316e56d87a",
+      "installedAt": "2026-11-04T05:34:49.065Z",
+      "native": {
+        "computedHash": "0fdeb1130d9a6a0de55dd7facf99fba5640d10be65136e10507fe4316e56d87a",
+        "skillPath": "packages/void/skills/void/SKILL.md",
+        "source": "voidzero-dev/void",
+        "sourceType": "github"
+      },
+      "skillFolderHash": "c42391a4b5e5bfd762b21575323bfbe7577533f5",
+      "skillPath": "packages/void/skills/void/SKILL.md",
+      "source": "voidzero-dev/void",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/voidzero-dev/void.git",
+      "updatedAt": "2026-11-04T05:34:49.065Z"
+    }
+  },
+  "version": 1
+}

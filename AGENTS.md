@@ -60,6 +60,7 @@ bun run test:e2e # OPENCODE_API_KEY と OPENCODE_E2E_MODEL を mise から渡す
 ## Skills
 
 - Void の route・設定・CLI を触るときは `.agents/skills/void/` を読む
-- Cloudflare の製品選定・Workers の実装では `.agents/skills/` の Cloudflare 系 skill を読む
+- Cloudflare の製品選定では `.agents/skills/cloudflare/` を読む
 - 公開前のレビュー、認証・rate limit・課金対策の設計では `solo-product` skill を読む
 - PR レビューの設定は `.github/pullfrog.config.sh` が正本（初回レビューは自動、追加コミットも再レビュー、手動依頼は `@pullfrog`）
+- void・cloudflare skill は skillctrl で取り込んだ（void: `voidzero-dev/void@59001202`、cloudflare: `cloudflare/skills@5611bbb3`。管理情報は `skills-lock.json`）
