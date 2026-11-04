@@ -1,2 +1,7 @@
 [tools]
 bun = "1.4.3"
+
+[env]
+# 一時的: OpenCode Go の残高不足の間だけ無料モデルを使う。補充後にこの節を消し、global の設定へ戻す。
+# 保持は 30 日のため、e2e に実データを入れない。2026-11-04 時点でこのモデルでは e2e は通らない（MODEL_OUTPUT_INVALID）。
+OPENCODE_E2E_MODEL = "beam-free"
